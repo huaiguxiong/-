@@ -1,158 +1,95 @@
 {
   "games": [
     {
-      "id": "4b0e5a88",
-      "name": "Dave the Diver",
-      "exe_path": "F:/game/Dave the Diver/DaveTheDiver.exe",
-      "cover": null,
-      "added_time": "2026-06-12T22:34:05.233728"
-    },
-    {
-      "id": "597bef21",
-      "name": "vamba",
-      "exe_path": "F:/game/vamba/VaM.exe",
-      "cover": null,
-      "added_time": "2026-06-13T18:38:15.859602"
-    },
-    {
-      "id": "95fe7462",
-      "name": "Rance1.0",
-      "exe_path": "D:/game/SLG/rance1-10/rance/RC1-10/Rance01/[130927][ALICESOFT] 兰斯01 V1.0/Rance1 汉化1.0/Rance01.exe",
-      "cover": null,
-      "added_time": "2026-06-14T10:56:59.851347"
-    },
-    {
-      "id": "15d71fcc",
-      "name": "哈尼修改器",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\存档\\rance\\哈尼修改器.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.724862"
-    },
-    {
-      "id": "772a9f4f",
-      "name": "gtutorial-x86_64",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\中文版可用CE修改器\\Cheat Engine 7.0\\gtutorial-x86_64.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.725839"
-    },
-    {
-      "id": "58873511",
-      "name": "Rance03",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance03\\Rance03\\Rance03.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.725839"
-    },
-    {
-      "id": "f1bc0e70",
-      "name": "OpenSaveFolder",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\OpenSaveFolder.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.725839"
-    },
-    {
-      "id": "42a9fa92",
-      "name": "Rance10",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\原版备份\\Rance10.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.726816"
-    },
-    {
-      "id": "0e9ba742",
-      "name": "RANCE4CN",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance4\\Rance4\\RANCE4CN.EXE",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.726816"
-    },
-    {
-      "id": "6c180cb9",
-      "name": "Tutorial-i386",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\中文版可用CE修改器\\Cheat Engine 7.0\\Tutorial-i386.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.726816"
-    },
-    {
-      "id": "b881155e",
-      "name": "RanceQuest",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance8\\Rance8\\RanceQuest.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.726816"
-    },
-    {
-      "id": "5b00d2ef",
-      "name": "OpenSaveFolder",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance01\\[130927][ALICESOFT] 兰斯01 V1.0\\Rance1 汉化1.0\\OpenSaveFolder.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.726816"
-    },
-    {
-      "id": "920d03b7",
-      "name": "Rance9",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance9\\Rance9\\Rance9\\Rance9.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.728319"
-    },
-    {
-      "id": "b928fd44",
-      "name": "Rance10",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\Rance10.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.728319"
-    },
-    {
-      "id": "bdb664e1",
-      "name": "Alice",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance5\\Rance5D\\Rance5D\\Alice.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.729302"
-    },
-    {
-      "id": "0a06a085",
-      "name": "gtutorial-i386",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\中文版可用CE修改器\\Cheat Engine 7.0\\gtutorial-i386.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.729302"
-    },
-    {
-      "id": "a64870ec",
-      "name": "OpenSaveFolder",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance03\\Rance03\\OpenSaveFolder.exe",
-      "cover": null,
-      "added_time": "2026-06-14T11:26:12.729302"
-    },
-    {
-      "id": "14efa562",
+      "id": "1d0f990e",
       "name": "Rance01",
       "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance01\\[130927][ALICESOFT] 兰斯01 V1.0\\Rance1 汉化1.0\\Rance01.exe",
       "cover": null,
-      "added_time": "2026-06-14T11:26:12.730279"
+      "added_time": "2026-06-14T12:48:47.310527"
     },
     {
-      "id": "2a3920e7",
-      "name": "Kernelmoduleunloader",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\中文版可用CE修改器\\Cheat Engine 7.0\\Kernelmoduleunloader.exe",
+      "id": "789b06ba",
+      "name": "RanceQuest",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance8\\Rance8\\RanceQuest.exe",
       "cover": null,
-      "added_time": "2026-06-14T11:26:12.730279"
+      "added_time": "2026-06-14T12:48:47.312781"
     },
     {
-      "id": "6b628d9f",
+      "id": "be2df2b2",
+      "name": "HannyTrainer",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance9\\Rance9\\Rance9\\HannyTrainer.exe",
+      "cover": null,
+      "added_time": "2026-06-14T12:48:47.314281"
+    },
+    {
+      "id": "58ef5e6c",
+      "name": "Rance10",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\原版备份\\Rance10.exe",
+      "cover": null,
+      "added_time": "2026-06-14T12:48:47.314782"
+    },
+    {
+      "id": "2f1ad19b",
+      "name": "Rance03",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance03\\Rance03\\Rance03.exe",
+      "cover": null,
+      "added_time": "2026-06-14T12:48:47.315281"
+    },
+    {
+      "id": "262c9cdb",
+      "name": "RANCE4CN",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance4\\Rance4\\RANCE4CN.EXE",
+      "cover": null,
+      "added_time": "2026-06-14T12:48:47.315780"
+    },
+    {
+      "id": "c1ffb844",
       "name": "OpenSaveFolder",
       "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance8\\Rance8\\OpenSaveFolder.exe",
       "cover": null,
-      "added_time": "2026-06-14T11:26:12.730279"
+      "added_time": "2026-06-14T12:48:47.315780"
     },
     {
-      "id": "8b0fa908",
-      "name": "OpenSaveFolder",
-      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance9\\Rance9\\Rance9\\OpenSaveFolder.exe",
+      "id": "2f2535ce",
+      "name": "哈尼修改器",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\存档\\rance\\哈尼修改器.exe",
       "cover": null,
-      "added_time": "2026-06-14T11:26:12.731254"
+      "added_time": "2026-06-14T12:48:47.316281"
     },
     {
-      "id": "55c7428d",
+      "id": "fd3b9ab4",
+      "name": "Rance9",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance9\\Rance9\\Rance9\\Rance9.exe",
+      "cover": null,
+      "added_time": "2026-06-14T12:48:47.316781"
+    },
+    {
+      "id": "530903b0",
       "name": "rance02",
       "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance02\\Rance02\\rance02.exe",
       "cover": null,
-      "added_time": "2026-06-14T11:26:12.731254"
+      "added_time": "2026-06-14T12:48:47.317281"
+    },
+    {
+      "id": "dd8f1fd5",
+      "name": "gtutorial-i386",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\中文版可用CE修改器\\Cheat Engine 7.0\\gtutorial-i386.exe",
+      "cover": null,
+      "added_time": "2026-06-14T12:48:47.317781"
+    },
+    {
+      "id": "1c9cf4cd",
+      "name": "OpenSaveFolder",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance10\\Rance10\\Rance10_CN\\OpenSaveFolder.exe",
+      "cover": null,
+      "added_time": "2026-06-14T12:48:47.318281"
+    },
+    {
+      "id": "e61fdebc",
+      "name": "OpenSaveFolder",
+      "exe_path": "D:\\game\\SLG\\rance1-10\\rance\\RC1-10\\Rance9\\Rance9\\Rance9\\OpenSaveFolder.exe",
+      "cover": null,
+      "added_time": "2026-06-14T12:48:47.318281"
     }
   ]
 }
