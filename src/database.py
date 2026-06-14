@@ -1,11 +1,19 @@
+import sys
 import json
 import os
 import uuid
 from datetime import datetime
 from pathlib import Path
 
-DB_PATH = Path(__file__).parent.parent / "games_db.json"
-COVERS_DIR = Path(__file__).parent.parent / "covers"
+def get_base_dir():
+    """兼容源码运行和 PyInstaller 打包后的路径。"""
+    if getattr(sys, 'frozen', False):
+        return Path(sys.executable).parent
+    return Path(__file__).parent.parent
+
+BASE_DIR = get_base_dir()
+DB_PATH = BASE_DIR / "games_db.json"
+COVERS_DIR = BASE_DIR / "covers"
 
 class GameDB:
     def __init__(self):

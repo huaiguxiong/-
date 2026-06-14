@@ -15,7 +15,13 @@ from PySide6.QtGui import QPixmap, QImage, QIcon, QAction, QColor, QPainter, QFo
 from database import GameDB
 from scanner import scan_directory
 
-BASE_DIR = Path(__file__).parent.parent
+def get_base_dir():
+    """兼容源码运行和 PyInstaller 打包后的路径。"""
+    if getattr(sys, 'frozen', False):
+        return Path(sys.executable).parent
+    return Path(__file__).parent.parent
+
+BASE_DIR = get_base_dir()
 COVERS_DIR = BASE_DIR / "covers"
 
 
@@ -324,6 +330,62 @@ class MainWindow(QMainWindow):
 def main():
     app = QApplication(sys.argv)
     app.setStyle("Fusion")
+    # 全局对话框暗色样式，防止 QMessageBox / QInputDialog 等黑底黑字
+    app.setStyleSheet("""
+        QMessageBox {
+            background-color: #1a1a1a;
+        }
+        QMessageBox QLabel {
+            color: #eee;
+            font-size: 14px;
+        }
+        QMessageBox QPushButton {
+            background: #2a2a2a;
+            color: #eee;
+            border: 1px solid #555;
+            border-radius: 5px;
+            padding: 6px 16px;
+            font-size: 13px;
+            min-width: 60px;
+        }
+        QMessageBox QPushButton:hover {
+            background: #3a3a3a;
+            border: 1px solid #777;
+        }
+        QDialog {
+            background-color: #1a1a1a;
+        }
+        QDialog QLabel {
+            color: #eee;
+        }
+        QInputDialog {
+            background-color: #1a1a1a;
+        }
+        QInputDialog QLabel {
+            color: white;
+            font-size: 14px;
+        }
+        QInputDialog QLineEdit {
+            background: #2a2a2a;
+            color: white;
+            border: 1px solid #555;
+            border-radius: 4px;
+            padding: 6px;
+            font-size: 14px;
+        }
+        QInputDialog QPushButton {
+            background: #2a2a2a;
+            color: #eee;
+            border: 1px solid #555;
+            border-radius: 5px;
+            padding: 6px 16px;
+            font-size: 13px;
+        }
+        QInputDialog QPushButton:hover {
+            background: #3a3a2a;
+            border: 1px solid #777;
+        }
+    """)
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
