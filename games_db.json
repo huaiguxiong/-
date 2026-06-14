@@ -1,0 +1,18 @@
+{
+  "games": [
+    {
+      "id": "4b0e5a88",
+      "name": "Dave the Diver",
+      "exe_path": "F:/game/Dave the Diver/DaveTheDiver.exe",
+      "cover": null,
+      "added_time": "2026-06-12T22:34:05.233728"
+    },
+    {
+      "id": "597bef21",
+      "name": "vamba",
+      "exe_path": "F:/game/vamba/VaM.exe",
+      "cover": null,
+      "added_time": "2026-06-13T18:38:15.859602"
+    }
+  ]
+}
