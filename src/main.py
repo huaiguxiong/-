@@ -448,7 +448,7 @@ class MainWindow(QMainWindow):
         self.batch_bar.setVisible(False)
 
         # 状态栏
-        self.status_label = QLabel("就绪")
+        self.status_label = QLabel("就绪1")
         self.status_label.setStyleSheet("color: #888; font-size: 12px; padding-left: 5px;")
         main_layout.addWidget(self.status_label)
 
